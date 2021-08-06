@@ -1,0 +1,58 @@
+.coverter-body {
+    margin: 0px;
+    padding: 0%;
+    background: cyan;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    
+
+#inputType {
+    padding: 2px 5px 5px 5px;
+    margin-left: 10px;
+    text-align: center;
+    width: 174px;
+}
+
+#resultType {
+    padding: 2px 5px 5px 5px;
+    margin-left: -1px;
+    text-align: center;
+    width: 173.5px;
+}
+
+#input {
+    width: 160px;
+    padding: 6px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+#result {
+    width: 160px;
+    padding: 6px;
+    margin-left: 7px;
+    text-align: center;
+    }
+#title{
+    text-align: center;
+}
+#swap{
+    margin-left: 0px;
+    width: 25px;
+    font-size: 15px;
+    text-indent: -6px;
+}
+#convSelect {
+    margin-right: 1000px;
+    margin-left: 125px;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+}
+
+

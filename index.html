@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="coverter-body">
+    <h1 id="title">
+        UNIT CONVERTER
+    </h1>
+    <select id="convSelect">
+        <option value="volume">Volume Conversion</option>
+        <option value="energy">Energy Conversion</option>
+    </select>
+    <input type="text" placeholder="Input" id="input">
+    <span>  =</span>
+    <input type="text" placeholder="Result" id="result">
+    <select id="inputType">
+        <option value="cubicmeter" id="option1_1">Cubic Meter (m³)</option>
+        <option value="barrel" id="option1_2">Barrel (bbl)</option>
+        <option value="cubicfoot" id="option1_3">Cubic Foot (ft³)</option>
+        <option value="liter" id="option1_4">Liter (l)</option>
+        <option value="gallon" id="option1_5">Gallon (gal)</option>
+        <option value="cubicinch" id="option1_6">Cubic Inch (in³)</option>
+        <option value="cubiccentimeter" id="option1_7">Cubic Centimeter (cm³)</option>
+        <option value="boardfoot" id="option1_8">Board Foot (bf)</option>
+        <option value="gay" id="option1_9" style="display:none"></option>
+    </select>
+    <input type="button" id="swap" value="⬌"> 
+    <select id="resultType">
+        <option value="cubicmeter" id="option2_1">Cubic Meter (m³)</option>
+        <option value="barrel" id="option2_2">Barrel (bbl)</option>
+        <option value="cubicfoot" id="option2_3">Cubic Foot (ft³)</option>
+        <option value="liter" id="option2_4">Liter (l)</option>
+        <option value="gallon" id="option2_5">Gallon (gal)</option>
+        <option value="cubicinch" id="option2_6">Cubic Inch (in³)</option>
+        <option value="cubiccentimeter" id="option2_7">Cubic Centimeter (cm³)</option>
+        <option value="boardfoot" id="option2_8">Board Foot (bf)</option>
+        <option value="gay" id="option2_9" style="display:none"></option>
+    </select>
+</div>
+<script src="index.js">
+    </script>
+</body>
+</html>
