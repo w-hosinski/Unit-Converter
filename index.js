@@ -1,13 +1,13 @@
-var input = document.getElementById("input")
-var result = document.getElementById("result")
-var inputType = document.getElementById("inputType")
-var resultType = document.getElementById("resultType")
-var button = document.getElementById("swap")
-var convSelect = document.getElementById("convSelect")
-var inputTypeValue = inputType.value
-var resultTypeValue = resultType.value
-var inputMult
-var resultMult
+let input = document.getElementById("input")
+let result = document.getElementById("result")
+let inputType = document.getElementById("inputType")
+let resultType = document.getElementById("resultType")
+let button = document.getElementById("swap")
+let convSelect = document.getElementById("convSelect")
+let inputTypeValue = inputType.value
+let resultTypeValue = resultType.value
+let inputMult
+let resultMult
 
 input.addEventListener("keyup",converter)
 inputType.addEventListener("change",converter)
@@ -221,7 +221,7 @@ switch(resultTypeValue){
         resultMult = 29307600
         break
 }
-var temp = input.value*(inputMult/resultMult)
+let temp = input.value*(inputMult/resultMult)
 result.value = temp.toFixed(3)
 }
 
