@@ -2,7 +2,7 @@ let input = document.getElementById("input")
 let result = document.getElementById("result")
 let inputType = document.getElementById("inputType")
 let resultType = document.getElementById("resultType")
-let button = document.getElementById("swap")
+let swapButton = document.getElementById("swapButton")
 let convSelect = document.getElementById("convSelect")
 let inputTypeValue = inputType.value
 let resultTypeValue = resultType.value
@@ -12,8 +12,8 @@ let resultMult
 input.addEventListener("keyup",converter)
 inputType.addEventListener("change",converter)
 resultType.addEventListener("change",converter)
-button.addEventListener("click",swaping)
-button.addEventListener("click",converter)
+swapButton.addEventListener("click",swaping)
+swapButton.addEventListener("click",converter)
 convSelect.addEventListener("change",selector)
 convSelect.addEventListener("change",converter)
 
@@ -224,6 +224,4 @@ switch(resultTypeValue){
 let temp = input.value*(inputMult/resultMult)
 result.value = temp.toFixed(3)
 }
-
-//[a, b] = [b, a]
 

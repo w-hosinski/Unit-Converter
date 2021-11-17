@@ -1,58 +1,50 @@
-.coverter-body {
-    margin: 0px;
-    padding: 0%;
-    background: lightgray;
-    width: 20%;
-    height: 20%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+body {
+    background-color:lightgray;
 }
-    
+
+.coverter-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30rem;
+    align-items: center;
+    margin: 40vh auto;
+    background-color:lavender;
+    padding-bottom: 1.5rem;  
+}
+
+#convSelect {
+    flex-basis: 77.6%;
+}
 
 #inputType {
-    padding: 2px 5px 5px 5px;
-    margin-left: 10px;
-    text-align: center;
-    width: 174px;
+    margin: 0.2rem;
+    padding: 0 0.15rem;
 }
 
 #resultType {
-    padding: 2px 5px 5px 5px;
-    margin-left: -1px;
-    text-align: center;
-    width: 173.5px;
+    margin: 0.2rem;
+    padding: 0 0.15rem;
+}
+
+#equals {
+    margin-right: 0.5rem;
 }
 
 #input {
-    width: 160px;
-    padding: 6px;
-    margin-left: 10px;
-    margin-top: 20px;
-    text-align: center;
+    margin: 0.2rem;
 }
+
 #result {
-    width: 160px;
-    padding: 6px;
-    margin-left: 7px;
-    text-align: center;
-    }
-#title{
-    text-align: center;
+    margin: 0.2rem;
 }
-#swap{
-    margin-left: 0px;
-    width: 25px;
-    font-size: 15px;
-    text-indent: -6px;
+
+#swapButton {
+    margin: 0.2rem;
 }
-#convSelect {
-    margin-right: 1000px;
-    margin-left: 125px;
-    text-align: center;
-    padding: 5px;
-    width: 150px;
-}
+
+
+
+
 
 
